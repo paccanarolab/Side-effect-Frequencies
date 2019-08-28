@@ -2,9 +2,9 @@
 
 This repository contains two folders:
 
-**Data collection**. If you want to parse the original files from SIDER 4.1. Notice that this part of the code requires data from http://sideeffects.embl.de/ and drugs need to be filtered using propietary data from https://www.whocc.no/atc_ddd_index/ (commercial).
+**Data collection**. Use the python code provided in this folder if you want to parse the original files from SIDER 4.1. Notice that this part of the code requires data from http://sideeffects.embl.de/ and drugs need to be further filtered using propietary data from the World Health Organization (WHO) https://www.whocc.no/atc_ddd_index/ (commercial).
 
-**Data analysis**. Contains a step-by-step Matlab R2018a code to run our matrix decomposition algorithm. This also contains .mat files of the matrices (frequencies and post-marketing associations) built for our study.
+**Data analysis**. Use the matlab code provided in this folder if you want to run our matrix decomposition algorithm. This is self-contained: it contains the .mat files of the matrices (frequencies and post-marketing associations) reproduce our study.
 
 ## Dependencies
 
