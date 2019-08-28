@@ -30,7 +30,7 @@ from collections import Counter
 import operator
 ```
 
-### 2. Algorithm
+### 2. Data Analysis
 
 Compatibility: the code was implemented in Matlab R2018a. However, we used built-in functions
 that had been available since previous versions:
