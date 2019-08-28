@@ -52,3 +52,7 @@ Run sections in the following order:
   d. Section 3. Evaluation in HeldOut test set.
   e. Section 4. Evaluation in PostMarket test set.
   f. Section 5. Reproduce Figure 2 of the main paper.
+
+### Time to run the algorithm 
+
+Running the algorithm takes roughly 32 seconds in a 6-core Intel Xeon CPU E5-1650v3@3.5GHz with 32GB of DDR4. 
