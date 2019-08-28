@@ -33,8 +33,10 @@ The code requires data from <http://sideeffects.embl.de/> which should be locate
 Compatibility: the code was implemented in Matlab R2018a. However, we used built-in functions
 that had been available since previous versions:
 
+```matlab
 * perfcurve: introduced in R2009a.
 * histogram: introduced in R2014b.
+```
 
 To run the code, follow the guidelines below.
 
