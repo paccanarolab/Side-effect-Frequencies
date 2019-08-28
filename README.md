@@ -1,10 +1,14 @@
 # Predicting the Frequencies of drug side effects
 
-This repository contains the code to run our matrix decomposition algorithm to predict the frequencies of drug side effects.
+This repository contains two folders:
 
-The data collection (parse if SIDER 4.1 database) is contained in the data collection folder
+**Data collection**. If you want to parse the original files from SIDER 4.1. Notice that this part of the code requires data from http://sideeffects.embl.de/ and drugs need to be filtered using propietary data from https://www.whocc.no/atc_ddd_index/ (commercial).
 
-## 1. Data Collection.
+**Data analysis**. Contains a step-by-step Matlab R2018a code to run our matrix decomposition algorithm. 
+
+## Dependencies
+
+### 1. Data Collection.
 
 The data collection is illustrated in a jupyther notebook.
 
@@ -26,9 +30,7 @@ from collections import Counter
 import operator
 ```
 
-The code requires data from <http://sideeffects.embl.de/> which should be located in a /data/databases/ file.
-
-## 2. Algorithm
+### 2. Algorithm
 
 Compatibility: the code was implemented in Matlab R2018a. However, we used built-in functions
 that had been available since previous versions:
@@ -38,23 +40,8 @@ that had been available since previous versions:
 * histogram: introduced in R2014b.
 ```
 
-To run the code, follow the guidelines below.
+To run the code, follow the guidelines in data analysis/readme.pdf
 
-1. Open the Matlab script DRIVER.m
-2. The code is divided into a series of sections e.g. Initialization. It is recommended to run
-section by section to follow the code. To run a given section, click on the section of the code
-you want to run and then go to the Editor panel and click on Run Section.
-(Alternatively, run the whole script but you will get all the outputs of each section
-sequentially).
-3. Sections are dependant of each other, so make sure to run each section before the next one.
-Run sections in the following order:
-  a. Initialization.
-  b. Section 1. Load dataset.
-  c. Section 2. Train the model.
-  d. Section 3. Evaluation in HeldOut test set.
-  e. Section 4. Evaluation in PostMarket test set.
-  f. Section 5. Reproduce Figure 2 of the main paper.
-
-### Time to run the algorithm 
+#### Time to run the algorithm 
 
 Running the algorithm takes roughly *32 seconds* in a 6-core Intel Xeon CPU E5-1650v3@3.5GHz with 32GB of DDR4. 
