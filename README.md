@@ -40,7 +40,7 @@ that had been available since previous versions:
 * histogram: introduced in R2014b.
 ```
 
-To run the code, follow the guidelines in data analysis/readme.pdf
+To run the code, follow the guidelines in */data analysis/readme.pdf*
 
 #### Time to run the algorithm 
 
