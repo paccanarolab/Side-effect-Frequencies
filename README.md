@@ -9,9 +9,9 @@ The data collection (parse if SIDER 4.1 database) is contained in the data colle
 The data collection is illustrated in a jupyther notebook.
 
 The dependencies required to run the algorithm are the following:
-'''code:python
-'''
+```python
 * matplotlib
+```
 
 ## 2. Algorithm
 
