@@ -55,4 +55,4 @@ Run sections in the following order:
 
 ### Time to run the algorithm 
 
-Running the algorithm takes roughly 32 seconds in a 6-core Intel Xeon CPU E5-1650v3@3.5GHz with 32GB of DDR4. 
+Running the algorithm takes roughly *32 seconds* in a 6-core Intel Xeon CPU E5-1650v3@3.5GHz with 32GB of DDR4. 
