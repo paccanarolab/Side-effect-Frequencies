@@ -9,7 +9,7 @@ function [ W, H, J ] = DecompositionAlgorithm( R, k, alpha )
 %       * maxiter: maximun number of iterations.
 % Stopping criteria: until termination tolerance tolx or maxiter is
 % satisfied.
-% Copyright (C) 2019 by Diego Galeano.
+% Copyright (C) 2017 by Diego Galeano.
 
 
     % Termination tolerance on change in the elements of W and H.
@@ -61,7 +61,6 @@ function [ W, H, J ] = DecompositionAlgorithm( R, k, alpha )
         delta = max(dw, dh);
 
         % Check for convergence
-
         if iter > 1
             if delta <= tolx
 
