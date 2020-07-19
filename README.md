@@ -49,6 +49,6 @@ To run the code, follow the guidelines in */data analysis/readme.pdf*
 Running the algorithm takes roughly *32 seconds* in a 6-core Intel Xeon CPU E5-1650v3@3.5GHz with 32GB of DDR4. 
 
 # Reference
-Galeano, D., Li, S., Gerstein, M & Paccanaro, A. Predicting the frequencies to drug side effects. Nature Communications, 2020.
+Galeano, D., Li, S., Gerstein, M & Paccanaro, A. (2020). Predicting the frequencies to drug side effects. Nature Communications.
 
 Galeano, D., & Paccanaro, A. (2019). Predicting the Frequency of Drug Side effects. bioRxiv, 594465.
