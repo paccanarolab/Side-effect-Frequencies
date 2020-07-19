@@ -32,6 +32,8 @@ import operator
 
 ### 2. Data Analysis
 
+This folder contains the code to run our algorithm.
+
 **Compatibility**: the code was implemented in Matlab R2018a. However, we used built-in functions
 that had been available since previous versions:
 
@@ -45,3 +47,8 @@ To run the code, follow the guidelines in */data analysis/readme.pdf*
 #### Time to run the algorithm 
 
 Running the algorithm takes roughly *32 seconds* in a 6-core Intel Xeon CPU E5-1650v3@3.5GHz with 32GB of DDR4. 
+
+# Reference
+Galeano, D., Li, S., Gerstein, M & Paccanaro, A. Predicting the frequencies to drug side effects. Nature Communications. 2020.
+
+Galeano, D., & Paccanaro, A. (2019). Predicting the Frequency of Drug Side effects. bioRxiv, 594465.
